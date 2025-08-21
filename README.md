@@ -16,6 +16,6 @@ This repository contains most of the code I developed during my research interns
 
 # Other resources
 
-- **video_topic_pharmacology** is an MP4 video showing the evolution of Pharmacology. It can also be generated manually in the **works_eda** notebook.
+- **evolution_topics_pharmacology** is an MP4 video showing the evolution of Pharmacology. It can also be generated manually in the **works_eda** notebook.
 
 - The **BJP folder** contains similar notebooks for a smaller dataset consisting only of works from the British Journal of Pharmacology. A slide presentation summarizing this analysis is also available.
