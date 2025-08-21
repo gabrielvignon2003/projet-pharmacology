@@ -1,22 +1,21 @@
-# projet-pharmacology
-
-This repository contains most of the code I have made during my research internship. The project was to study Pharmacology with the Science of Science approach.
+This repository contains most of the code I developed during my research internship. The project aimed to study Pharmacology using a Science of Science approach.
 
 # How to use this repository
 
-- **sources_and_works_extraction** will allow you to extract the datasets I have used to study Pharmacology. This have been made using the API of the OpenAlex database. The notebook also contains a first basic analysis of the journals (the sources).
+- **sources_and_works_extraction** allows you to extract the datasets used for studying Pharmacology. This was done using the OpenAlex API. The notebook also includes a basic first analysis of journals (the sources).
 
-- **works_eda** contains most of the data analysis. You can execute it until the topic modelling section, where you will be able to download the transformed dataset that will be used for doing the topic modelling.
+- **works_eda** contains most of the data analysis. You can run it until the topic modeling section, at which point you will be able to download the transformed dataset required for topic modeling.
 
-- At this point, you can use the **nlp** notebook to do the topic modelling. Executing this notebook on GPUs is highly recommended. **nlp** notebook also contains some basic analysis of the topic modelling results. 
+- Next, you can use the **nlp** notebook to perform topic modeling. Running this notebook on GPUs is highly recommended. It also includes some basic analyses of the topic modeling results.
 
-- After that step, you can come back to the **works_eda**  noteback and finish the execution. At the end, you will be able to download a new dataset that will be used for the Machine Learning predictions.
+- After completing this step, you can return to the **works_eda** notebook and finish running it. At the end, you will be able to download a new dataset that will be used for Machine Learning predictions.
 
-- For doing this predictions, you can simply execute the **modelling dataset**
+- To run these predictions, simply execute the **modelling_dataset** notebook.
 
-- In parallel, you can also execute the coauthorshipnetwork notebook. In the notebook, we use Graphistry and Networkx but Gephi can also be used outside of the notebook (once the edges dataset downloaded).
+- In parallel, you can also run the **coauthorshipnetwork notebook**. It uses Graphistry and NetworkX, but Gephi can also be used externally once the edges dataset has been downloaded.
 
 # Other resources
 
-**video_topic_pharmacology** is a mp4 video that shows the evolution of Pharmacology, it can also be manually computed in the **works_eda** notebook.
-the **BJP** folder contains similar notebooks that have been used for a smaller dataset containing only works of the British Journal of Pharmacology. A slide presentation summarizing this analysis is also available.
+- **video_topic_pharmacology** is an MP4 video showing the evolution of Pharmacology. It can also be generated manually in the **works_eda** notebook.
+
+- The **BJP folder** contains similar notebooks for a smaller dataset consisting only of works from the British Journal of Pharmacology. A slide presentation summarizing this analysis is also available.
