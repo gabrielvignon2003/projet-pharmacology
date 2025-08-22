@@ -10,7 +10,7 @@ This repository contains most of the code I developed during my research interns
 
 - After completing this step, you can return to the **works_eda** notebook and finish running it. At the end, you will be able to download a new dataset that will be used for Machine Learning predictions.
 
-- To run these predictions, simply execute the **modelling_dataset** notebook.
+- To run these predictions, simply execute the **modelling** notebook.
 
 - In parallel, you can also run the **coauthorshipnetwork notebook**. It uses Graphistry and NetworkX, but Gephi can also be used externally once the edges dataset has been downloaded.
 
