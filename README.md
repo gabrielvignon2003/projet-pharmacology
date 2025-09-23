@@ -1,5 +1,7 @@
 This repository contains most of the code I developed during my research internship. The project aimed to study Pharmacology using a Science of Science approach.
 
+For a global vision of the project, please refers to the final report.
+
 # How to use this repository
 
 - **sources_and_works_extraction** allows you to extract the datasets used for studying Pharmacology. This was done using the OpenAlex API. The notebook also includes a basic first analysis of journals (the sources).
